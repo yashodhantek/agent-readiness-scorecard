@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Agent Readiness Scorecard</title>
+  <meta name="description" content="A 5-minute self-assessment of how ready your organisation is for AI agents, with a ranked list of where to start.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23174862'/%3E%3Cpath d='M9 21l5-6 4 3 5-8' fill='none' stroke='%2348ae9f' stroke-width='2.6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="src/styles.css">
+</head>
+<body>
+  <header class="top">
+    <div class="wrap top__inner">
+      <a class="logo" href="./" aria-label="Agent Readiness Scorecard, start over">Agent Readiness <span>Scorecard</span></a>
+      <div class="progress" aria-hidden="true"><div class="progress__bar" id="bar"></div></div>
+    </div>
+  </header>
+
+  <main class="wrap" id="app" tabindex="-1">
+    <noscript><p>This scorecard needs JavaScript. Your answers never leave your browser.</p></noscript>
+  </main>
+
+  <footer class="foot wrap">
+    <p>Runs entirely in your browser. Nothing is sent anywhere; your answers live in the page address so you can share or bookmark the result.</p>
+    <p><a href="https://github.com/yashodhantek/agent-readiness-scorecard">Source on GitHub</a> · MIT licence · Made by <a href="https://yashodhantek.com">YashodhanTek</a></p>
+  </footer>
+
+  <script type="module" src="src/app.js"></script>
+</body>
+</html>

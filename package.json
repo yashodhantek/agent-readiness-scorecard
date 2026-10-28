@@ -1,0 +1,15 @@
+{
+  "name": "agent-readiness-scorecard",
+  "version": "1.0.0",
+  "description": "A 5-minute, browser-only self-assessment of how ready an organisation is for AI agents.",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "start": "node scripts/serve.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
